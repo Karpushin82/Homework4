@@ -5,7 +5,7 @@
 # при d = 0.00001, π = 3.14154
 # d от 0.1 до 0.0000000001
 
-
+"""
 def InputNumbers(inputText):
     is_OK = False
     while not is_OK:
@@ -27,8 +27,8 @@ n = int(InputNumbers("Введите точность (количество зн
 rezult = round(division(num1, num2), n)
 
 print(f"Результат деления: {rezult}")
+"""
 
-""""
 
 # Задайте натуральное число N. Напишите программу, которая составит список простых множителей числа N.
 
@@ -58,4 +58,3 @@ num = InputNumbers("Введите натуральное число N: ")
 
 print(f"Результат деления: {func_search(num)}")
 
-"""
